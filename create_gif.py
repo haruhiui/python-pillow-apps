@@ -83,8 +83,8 @@ def test():
     # new_im.save('temp.jpg') 
 
     image_names = ['images/101.png', 'images/102.png', 'images/201.jpg'] 
-    gif_name = 'temp.gif'
-    create_gif(image_names, gif_name, duration=0.5, mode='fill') 
+    gif_name = 'output/fit_min_gif.gif'
+    create_gif(image_names, gif_name, duration=0.5, mode='fit-min') 
     
 
 if __name__ == '__main__': 
